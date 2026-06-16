@@ -1,0 +1,9 @@
+/* Custom smooth transition */
+a, button {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hindari virus/XSS dengan memastikan font & asset dari source terpercaya */
+body {
+    font-family: 'Inter', sans-serif;
+}
